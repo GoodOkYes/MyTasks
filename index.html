@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WebSiteLite</title>
+	</head>
+	<body>
+		
+		<div id="app">
+			<!--
+			<ul>
+				<template v-for="el in elems">
+					<li>{{ el }}</li>
+					<li>{{ el }}</li>
+					<li>{{ el }}</li>
+				</template>
+			</ul>
+			<p>{{ show() }}</p>
+			<p>{{ summa() }}</p>
+			<button v-on:mouseover="ii">Нажми на меня</button>
+			<p>{{ text2 }}</p>
+			<button v-on:click="chengeText">Нажми на меня</button>
+			<ul>
+				<li v-for="elem in elems2">{{ elem }}</li>
+			</ul>
+			<button v-on:click="addElem">Dobavit</button>
+		-->
+				<!--5.7
+				<ul>
+					<li v-for="item in items">{{ item }}</li>
+				</ul>
+			  	<button v-on:click="filter1">Нажми на меня</button>
+				-->
+				<!--6.4
+					<ul>
+					<li v-for="(item, index) in number" v-on:click="db(index)">{{ item }}</li>
+					</ul>	
+				-->
+
+				<!--7.13
+				<p v-if="age <= 18">подросток</p>
+				<p v-else-if="age >= 19 && age <= 25">молодой человек</p>
+				<p v-else-if="age => 26">мужчина</p>
+				-->
+				<!--7.14
+				<template v-if='show'>
+					<p>Абзац 1</p>
+					<p>Абзац 2</p>
+  					<p>Абзац 3</p>
+				</template>
+				<button v-on:click="tl">Нажми</button>
+				-->
+				<!--10.2
+			<textarea v-model="mass"></textarea><br>
+			<button v-on:click="add">Нажми</button>
+			<ul>
+				<li v-for="item in massive">{{ item }}</li>
+			</ul>
+				-->
+				<!--10.7
+			<input type="checkbox" v-model="lil" value="html">
+			<input type="checkbox" v-model="lil" value="css">
+			<input type="checkbox" v-model="lil" value="js">
+			<ul>
+				<li v-for="item in lil">{{ item }}</li>
+			</ul>
+				-->
+				<!--10.8
+			<input name="radio" type="radio" v-model="type" value="ru">
+			<input name="radio" type="radio" v-model="type" value="en">
+			<input name="radio" type="radio" v-model="type" value="de">
+			<p>Ваш родной язык: {{ type }}</p>
+				-->
+				<!--10.11
+			<select v-model="select">
+			<option v-for="option in options">{{ option }}</option>
+			</select>
+			<p>Вы выбрали: {{ select }}</p>
+				-->
+				<!--12.5
+		<p v-bind:class="classes">Абзац</p>
+				-->
+				<!--13.3
+        <p v-if="style" v-bind:style="{color: 'red'}">Абзац</p>
+        <p v-else v-bind:style="{color: 'black'}">Абзац</p>
+        <input type="checkbox" v-model="style">
+				-->
+				<!--17.1
+		<a href="https://google.com" v-on:click.self.prevent="textad">Google</a>
+		<p>{{ textp }}</p>
+				-->
+				<!--17.3
+		<p v-once>{{ text }}</p>
+		<p>{{ text }}</p>
+		<button v-on:click="chage">Нажми</button>
+				-->
+				<!--17.4
+		<p v-html='Cyrsiv'></p>
+		<button v-on:click="nng">Нажми</button>
+				-->
+				<!--18.3
+		<a href="https://google.com" v-on:click.self.prevent v-on:click.left='left' v-on:click.middle='middle' v-on:click.right='right'>Google</a>
+		<p>{{ buttons }}</p>
+		-->
+		</div>
+		
+
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+	<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
